@@ -8,6 +8,7 @@ body {
 
 h1 {
     color: #e7dfdd;
+    font-size: 6vh;
 }
 
 #grid-container {
@@ -15,13 +16,9 @@ h1 {
     text-align: center;
 }
 
-h1 {
-    font-size: 3vh;
-}
-
-.top-nav {
+#nav-bar {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     font-size: 3vh;
     height: 10vh;
     background-color: #e7dfdd;
@@ -31,7 +28,7 @@ h1 {
     background-position: left;
 }
 
-.top-nav a {
+#nav-bar a {
     float: right;
     padding-top: 2.5vh;
     padding-right: 5vw;
@@ -43,12 +40,12 @@ h1 {
     color: #000;
 }
 
-.nav {
+.nav-link {
     height: 100%;
     transition: background 1s;
 }
 
-.nav:hover {
+.nav-link:hover {
     background: #fff;
 }
 
@@ -60,69 +57,75 @@ h1 {
     font-size: 4vh;
 }
 
-#header button {
-    display: block;
-    margin: 0 auto;
-    background-color: #e7dfdd;
-    border: none;
-    color: #0e0b16;
-    padding: 1vh;
-    transition: background 1s, box-shadow .3s, font-size 1s, color 1s;
-    outline: none;
-}
-
-#header input {
+#top input {
     background: #e7dfdd;
     border: none;
-    height: 4vh;
+    height: 10vh;
+    width: 24vw;
     text-align: center;
     transition: box-shadow 2s, font-size 2s, color 1s;
     outline: none;
     color: #0e0b16;
-}
-
-#header input:hover {
-    box-shadow: 0 0 0 1vw #e7dfdd;
     font-size: 2.5vh;
 }
 
-#header input:focus {
+#top input:hover {
     box-shadow: 0 0 0 1vw #e7dfdd;
+    font-size: 3vh;
+}
+
+#top input:focus {
+    box-shadow: 0 0 0 1vw #e7dfdd;
+    font-size: 3vh;
+}
+
+#top button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3vh;
+    background-color: #e7dfdd;
+    border: none;
+    color: #0e0b16;
+    padding: 5vh;
+    transition: background 1s, box-shadow .3s, font-size 1s, color 1s;
+    outline: none;
+    letter-spacing: .2vw;
     font-size: 2.5vh;
 }
 
-#header button:hover {
+#top button:hover {
     background: #4717f6;
     box-shadow: 0 0 0 1vw #4717f6;
-    font-size: 2.5vh;
+    font-size: 3vh;
     color: #e7dfdd;
 }
 
-header h1, input, button {
+top h1, input, button {
     margin: 5vh auto;
 }
 
 #grid2 {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     padding: 10vh 0;
     display: grid;
     grid-template-columns: 2fr 9fr;
     grid-template-rows: auto auto auto;
     grid-row-gap: 6vh;
-    grid-column-gap: 4vw;
+    grid-column-gap: 3vw;
     text-align: left;
     color: #e7dfdd;
     background-color: #4717f6;
 }
 
 #grid-container {
-    width: 100vw;
+    width: 100%;
 }
 
 #grid1 {
-    height: 40vh;
+    height: 50vh;
     text-align: center;
+    padding-bottom: 10vh;
 }
 
 #grid2 img {
@@ -136,10 +139,28 @@ header h1, input, button {
 }
 
 .description h2 {
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 .description p {
     line-height: 5vh;
-    font-size: 2vh;
+    font-size: 3vh;
+}
+
+#header-img {
+    position: fixed;
+}
+
+#video {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#grid3 {
+    height: 100vh;
+
 }
