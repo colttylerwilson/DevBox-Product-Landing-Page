@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+    overflow: none;
+}
+
+h1 {
+    color: #e7dfdd;
+}
+
+#grid-container {
+    padding-top: 20vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3vh;
+}
+
+.top-nav {
+    position: fixed;
+    width: 100vw;
+    font-size: 3vh;
+    height: 10vh;
+    background-color: #e7dfdd;
+    background-image: url("https://image.flaticon.com/icons/svg/81/81227.svg");
+    background-repeat: no-repeat;
+    background-size: 5vw;
+    background-position: left;
+}
+
+.top-nav a {
+    float: right;
+    padding-top: 2.5vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 3.9vh;
+    text-decoration: none;
+    font-size: 3vh;
+    text-align: center;
+    color: #000;
+}
+
+.nav {
+    height: 100%;
+    transition: background 1s;
+}
+
+.nav:hover {
+    background: #fff;
+}
+
+#company-name {
+    float:left;
+    padding-left: 5vw;
+    padding-top: 2.5vh;
+    text-align: center;
+    font-size: 4vh;
+}
+
+#header button {
+    display: block;
+    margin: 0 auto;
+    background-color: #e7dfdd;
+    border: none;
+    color: #0e0b16;
+    padding: 1vh;
+    transition: background 1s, box-shadow .3s, font-size 1s, color 1s;
+    outline: none;
+}
+
+#header input {
+    background: #e7dfdd;
+    border: none;
+    height: 4vh;
+    text-align: center;
+    transition: box-shadow 2s, font-size 2s, color 1s;
+    outline: none;
+    color: #0e0b16;
+}
+
+#header input:hover {
+    box-shadow: 0 0 0 1vw #e7dfdd;
+    font-size: 2.5vh;
+}
+
+#header input:focus {
+    box-shadow: 0 0 0 1vw #e7dfdd;
+    font-size: 2.5vh;
+}
+
+#header button:hover {
+    background: #4717f6;
+    box-shadow: 0 0 0 1vw #4717f6;
+    font-size: 2.5vh;
+    color: #e7dfdd;
+}
+
+header h1, input, button {
+    margin: 5vh auto;
+}
+
+#grid2 {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 10vh 0;
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 6vh;
+    grid-column-gap: 4vw;
+    text-align: left;
+    color: #e7dfdd;
+    background-color: #4717f6;
+}
+
+#grid-container {
+    width: 100vw;
+}
+
+#grid1 {
+    height: 40vh;
+    text-align: center;
+}
+
+#grid2 img {
+    width: 50%;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description h2 {
+    font-size: 3vh;
+}
+
+.description p {
+    line-height: 5vh;
+    font-size: 2vh;
+}

@@ -1,0 +1,4 @@
+#0e0b16 -- dark
+#a239ca -- purple
+#4717f6 -- blue purple
+#e7dfdd -- grey silver
